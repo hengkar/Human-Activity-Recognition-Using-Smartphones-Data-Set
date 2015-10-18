@@ -83,7 +83,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 
 # Summaries
-Below are the code for R to generate [tidy_dat.txt](tidy_data.txt)
+Below are the code for R to generate [tidy_data.txt](tidy_data.txt)
 
 ```
 source("./run_analysis.R")
