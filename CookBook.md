@@ -83,6 +83,7 @@ tBodyGyroJerkMean
 
 
 # Summaries
+[Tidy Data Summary](tidy_data.txt)
 
 a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
 data to indicate all the variables and summaries you calculated, along with units, and any other relevant information?
