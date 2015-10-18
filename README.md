@@ -21,9 +21,9 @@ In your R enviroment (in the same folder where the "UCI HAR Dataset" are), load 
 
 ```
 source('run_analysis.R')
-MakeTidyData()
+makeTidyData()
 or
-MakeTidyData("tidyData.txt")
+makeTidyData("tidyData.txt")
 ```
 
 This R script does the following steps:
