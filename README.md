@@ -15,7 +15,7 @@ This R script performs the following steps, as per the project assignment instru
 4. Appropriately labels the data set with descriptive activity names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-## How to download original data
+## How to download "UCI HAR Dataset"
 This script assumes that you have already downloaded and unzipped the original Samsung data in a folder called "UCI HAR Dataset". If this is not the case, you must first run the script called `run_analysis.R`. In your R enviroment, load it:
 
 ```
@@ -32,8 +32,8 @@ source('run_analysis.R')
 MakeTidyData()
 or
 MakeTidyData("tidyData.txt")
-
-note: default filename is tidy_data.txt if there is no argument specified in MakeTidyData()
 ```
+
+Default filename is called "tidy_data.txt" if there is no argument specified in MakeTidyData()
 
 ## Output of the analysis
