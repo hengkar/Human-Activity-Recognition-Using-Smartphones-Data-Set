@@ -115,10 +115,10 @@ makeTidyData <- function(filename = "tidy_data.txt") {
     
     # step 5: 
     # From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-    idvars = c("subjectid", "activityid", "activityname")
-    measureVars = setdiff(colnames(selectedData), idvars)
+    idVars = c("subjectid", "activityid", "activityname")
+    measureVars = setdiff(colnames(selectedData), idVars)
     
-    dataMelt <- melt(selectedData, id=idvars, measure.vars=measureVars)
+    dataMelt <- melt(selectedData, id=idVars, measure.vars=measureVars)
     head(dataMelt, n = 5)    
     
     tidyData <- dcast(dataMelt, activityname+subjectid ~ variable, mean)
