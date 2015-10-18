@@ -3,7 +3,7 @@
 ## Overview
 The purpose of this project is to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. The repository includes the following files:
 - README.md
-- CookBook.md: A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
+- CodeBook.md: A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
 - run_analysis.R: A script for performing the analysis.
 - tidy_data.txt: A tidy data set after performing the analysis.
 
