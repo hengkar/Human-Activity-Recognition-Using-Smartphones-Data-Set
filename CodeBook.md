@@ -16,8 +16,8 @@ For each record it is provided:
 - An identifier of the subject who carried out the experiment.
 
 # Variables
-### Activity
-| id |              name |
+### ActivityName
+| id |      activityname |
 |---:|:-----------------:|
 |  1 |           WALKING|
 |  2 |  WALKING_UPSTAIRS|
@@ -26,13 +26,13 @@ For each record it is provided:
 |  5|           STANDING|
 |  6|            LAYING|
 
-### Subject
+### SubjectID
 Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
 
 ### Feature Selection
 Column numbers are extracted from the original data file, `UCI HAR Dataset/features.txt`
 
-| feature column number | feature column name |
+| feature column number |  feature column name |
 |----------------------:|:--------------------:|
 |   1| tBodyAcc-mean()-X |
 |   2| tBodyAcc-mean()-Y |
