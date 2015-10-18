@@ -94,6 +94,7 @@ getMergeData <- function() {
     return(totalData)
 }
 
+# create tidy data function
 makeTidyData <- function(filename = "tidy_data.txt") {
     
     # step 1: 
