@@ -88,9 +88,12 @@ Below are the code for R to generate [tidy_dat.txt](tidy_data.txt)
 ```
 source("./run_analysis.R")
 makeTidyData()
-tidyData<-fread("tidy_data.txt")
-summary(tidyData)
 ```
 
-a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
-data to indicate all the variables and summaries you calculated, along with units, and any other relevant information?
+Below are the code for R to generate [tidy_summary.txt](tidy_summary.txt)
+
+```
+tidyData<-fread("tidy_data.txt")
+summary(tidyData)
+write.table(summary(tidyData), "tidy_summary.txt", row.names = FALSE)
+```
