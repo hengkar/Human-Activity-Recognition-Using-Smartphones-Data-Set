@@ -119,13 +119,13 @@ makeTidyData <- function(filename = "tidy_data.txt") {
     idVars = c("subjectid", "activityid", "activityname")
     measureVars = setdiff(colnames(selectedData), idVars)
     
-    dataMelt <- melt(selectedData, id=idVars, measure.vars=measureVars)
+    dataMelt <- melt(selectedData, id = idVars, measure.vars = measureVars)
     head(dataMelt, n = 5)    
     
-    tidyData <- dcast(dataMelt, activityname+subjectid ~ variable, mean)
+    tidyData <- dcast(dataMelt, activityname + subjectid ~ variable, mean)
     tidyData    
     
-    write.table(tidyData, filename, row.names=FALSE)
+    write.table(tidyData, filename, row.names = FALSE)
     message("Done: Tidy data written to file ", filename)    
 }
 
