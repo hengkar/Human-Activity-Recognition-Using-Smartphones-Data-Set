@@ -1,6 +1,7 @@
 # Human-Activity-Recognition-Using-Smartphones-Data-Set
 
 ## Overview
+The goal is to prepare tidy data that can be used for later analysis
 
 The repository includes the following files:
 - README.md
@@ -18,7 +19,7 @@ downloadData()
 This will download the "UCI HAR Dataset" and unzip it. Now everything is ready for the analysis.
 
 ## How to run the analysis
-In your R enviroment (in the same folder where the data files are), load the script:
+In your R enviroment (in the same folder where the "UCI HAR Dataset" are), load the script:
 
 ```
 source('run_analysis.R')
@@ -37,3 +38,4 @@ This R script does the following steps:
 Default filename is called "tidy_data.txt" if there is no argument specified in MakeTidyData()
 
 ## Output of the analysis
+The output of the analysis should be clean and tidy dataset that contain activity, subject and measures for all required features (i.e., mean or standard deviation). Each variable in the tidy dataset measure should be in one column. And each different observation of that variable should be in a different row.
