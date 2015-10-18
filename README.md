@@ -10,7 +10,7 @@ The repository includes the following files:
 - tidy_data.txt: A tidy data set after performing the analysis.
 
 ## How to download "UCI HAR Dataset"
-The data sets here are based on UCI study that recorded smartphones gyroscope and accelerometer measurements during known activities. Refer to the [UCI HARUS](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) project page. This script assumes that you have already downloaded and unzipped the original Samsung data in a folder called "UCI HAR Dataset". If this is not the case, you must first run the script called `run_analysis.R`. In your R enviroment, load it:
+The data sets here are based on UCI study that recorded smartphones gyroscope and accelerometer measurements during known activities. Refer to the [UCI HARUS](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) project page. This script assumes that you have already downloaded and unzipped the original Samsung data in a folder called "UCI HAR Dataset". The default behavior will show error if the "UCI-HAR-Dataset.zip" is not found. If this is not the case, you must first run the script called `run_analysis.R`. In your R enviroment, load it:
 
 ```
 source('run_analysis.R')
