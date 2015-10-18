@@ -36,4 +36,4 @@ This R script does the following steps:
 Default filename is called "tidy_data.txt" if there is no argument specified in MakeTidyData()
 
 ## Output of the analysis
-The output of the analysis should be clean and tidy data set that contain activity, subject and measures for all required features (i.e., mean or standard deviation). Each variable in the tidy data set measure should be in one column. And each different observation of that variable should be in a different row.
+The output of the analysis is clean and tidy data set that contain activity, subject and measures for all required features (i.e., mean or standard deviation). Each variable in the tidy data set measure should be in one column. And each different observation of that variable should be in a different row.
