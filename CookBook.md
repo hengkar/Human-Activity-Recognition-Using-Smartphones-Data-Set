@@ -83,9 +83,9 @@ tBodyGyroJerkMean
 
 
 # Summaries
-[Tidy Data Summary](tidy_data.txt)
+Below are the code for R to generate [tidy_dat.txt](tidy_data.txt)
 
-```{r, echo=FALSE}
+```
 source("./run_analysis.R")
 makeTidyData()
 tidyData<-fread("tidy_data.txt")
