@@ -8,7 +8,7 @@ The purpose of this project is to collect, work with, and clean a data set. The 
 - tidy_data.txt: A tidy data set after performing the analysis.
 
 ## How to download "UCI HAR Dataset"
-The data sets here are based on UCI study that recorded smartphones gyroscope and accelerometer measurements during known activities. Refer to the [UCI Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) project page. This script assumes that you have already downloaded and unzipped the original Samsung data in a folder called "UCI HAR Dataset". The default behavior will show error if the related dataset file is not found. To download the dataset, you must first run the script called `run_analysis.R`. In your R enviroment, load it:
+The data sets here are based on UCI study that recorded smartphones gyroscope and accelerometer measurements during known activities. Refer to the [UCI Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) project page. This script assumes that you have already downloaded and unzipped the original Samsung data in a folder called "UCI HAR Dataset". The default behavior will show error if the related data set file is not found. To download the data set, you must first run the script called `run_analysis.R`. In your R enviroment, load it:
 
 ```
 source('run_analysis.R')
@@ -36,4 +36,4 @@ This R script does the following steps:
 Default filename is called "tidy_data.txt" if there is no argument specified in MakeTidyData()
 
 ## Output of the analysis
-The output of the analysis should be clean and tidy dataset that contain activity, subject and measures for all required features (i.e., mean or standard deviation). Each variable in the tidy dataset measure should be in one column. And each different observation of that variable should be in a different row.
+The output of the analysis should be clean and tidy data set that contain activity, subject and measures for all required features (i.e., mean or standard deviation). Each variable in the tidy data set measure should be in one column. And each different observation of that variable should be in a different row.
