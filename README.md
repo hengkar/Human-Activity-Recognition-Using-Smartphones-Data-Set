@@ -41,7 +41,7 @@ This R script does the following steps:
 - Appropriately labels the data set with descriptive activity names. 
 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-Default filename is called "tidy_data.txt" if there is no argument specified in MakeTidyData()
+Default filename is called "tidy_data.txt" if there is no argument specified in makeTidyData()
 
 ## Output of the analysis
 The output of the analysis is clean and tidy data set that contain activity, subject and measures for all required features (i.e., mean or standard deviation). Each variable in the tidy data set measure should be in one column. And each different observation of that variable should be in a different row.
