@@ -20,10 +20,18 @@ This will download the "UCI HAR Dataset" and unzip it. Now everything is ready f
 In your R enviroment (in the same folder where the "UCI HAR Dataset" are), load the script:
 
 ```
-source('run_analysis.R')
+source("./run_analysis.R")
 makeTidyData()
+tidyData<-fread("tidy_data.txt")
+summary(tidyData)
+
 or
+
+source("./run_analysis.R")
 makeTidyData("tidyData.txt")
+tidyData<-fread("tidyData.txt")
+summary(tidyData)
+
 ```
 
 This R script does the following steps:
